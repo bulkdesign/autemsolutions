@@ -7,7 +7,7 @@
  */
 ?>
 
-<footer class="page-footer autem">
+<footer class="page-footer autem-dark">
   <div class="container">
     <div class="row">
       <div class="col s12 m4">
@@ -21,7 +21,8 @@
       <div class="col m4">
         <h5 class="white-text">Contato</h5>
         <div class="row">
-          <form class="col s12">
+          <?php echo do_shortcode('[contact-form-7 id="18" title="Contato"]'); ?>
+          <!--  <form class="col s12">
             <div class="row">
               <div class="input-field col s12">
                 <input placeholder="Nome" id="nome" type="text" class="validate">
@@ -31,7 +32,7 @@
                 </button>
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
       </div>
       <div class="col m1">&nbsp;</div>
@@ -72,6 +73,7 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
   <script src="<?php bloginfo('template_url') ?>/js/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/js/jquery.mask.min.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/materialize.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/init.js"></script>
   <?php wp_footer(); ?>
