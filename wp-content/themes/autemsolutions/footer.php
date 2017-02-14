@@ -13,9 +13,9 @@
       <div class="col s12 m4">
         <h5 class="white-text">Autem Solutions</h5>
         <p class="grey-text text-lighten-4">
-          Rua Whatever, bairro Whatever - Curitiba, PR<br>
-          CEP 80000-000<br>
-          Fone: (41) 1234-5678<br>
+          E-mail: <a href="mailto:hello@autemsolutions.com.br">hello@autemsolutions.com.br</a>
+          <br>
+          Fone: (41) 4101-7740
         </p>
       </div>
       <div class="col m4">

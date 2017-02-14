@@ -9,7 +9,7 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="<?php bloginfo('template_url') ?>/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="<?php bloginfo('template_url') ?>/font/Mangerica-Regular/styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="<?php bloginfo('template_url') ?>/font/Mangerica-Regular/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <?php wp_head(); ?>
 </head>
@@ -18,7 +18,8 @@
 <div class="navbar-fixed scrollspy hide-on-small-only" id="home">
   <nav class="white-transparent z-depth-0" role="navigation">
     <div class="nav-wrapper container">
-      <ul class="hide-on-med-and-down">
+      <!-- <ul class="hide-on-med-and-down"> -->
+      <ul>
         <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
       </ul>
     </div>

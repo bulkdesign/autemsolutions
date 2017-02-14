@@ -12,7 +12,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 html {
-	font-family:'Mangerica-Regular' !important;
+	font-family:'Conv_Mangerica-Regular' !important;
 }
 
 /* Materialize */
@@ -69,6 +69,24 @@ nav {
     max-width: 130px;
 }
 
+@media (min-width: 957px) and (max-width: 1127px) {
+	nav ul a {
+		padding: 2px 50px;
+	}
+}
+
+@media (min-width: 783px) and (max-width: 956px) {
+	nav ul a {
+		padding: 2px 30px;
+	}
+}
+
+@media (min-width: 602px) and (max-width: 782px) {
+	nav ul a {
+		padding: 2px 19px;
+	}
+}
+
 @media (max-width:600px) {
 	.brand-logo {
 		position: relative !important;
@@ -101,6 +119,7 @@ nav {
 }
 
 /* QUEM SOMOS */
+
 #quemsomos {
     margin-bottom: 50px;
 }
