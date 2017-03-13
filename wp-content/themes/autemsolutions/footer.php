@@ -19,7 +19,7 @@
         </p>
       </div>
       <div class="col m4">
-        <h5 class="white-text">Contato</h5>
+        <h5 class="white-text scrollspy" id="contato">Contato</h5>
         <div class="row">
           <?php echo do_shortcode('[contact-form-7 id="18" title="Contato"]'); ?>
           <!--  <form class="col s12">
@@ -41,13 +41,14 @@
           <ul>
             <li>
               <!-- AddToAny BEGIN -->
-              <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                <a class="a2a_button_facebook"></a>
-                <a class="a2a_button_linkedin"></a>
-                <a class="a2a_button_youtube"></a>
-                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+              <div class="a2a_kit a2a_kit_size_32 a2a_default_style social">
+                <a href="https://www.facebook.com/autemsolutions" target="blank">
+                  <img src="<?php bloginfo('template_url') ?>/img/facebook.png">
+                </a>
+                <a href="https://www.instagram.com/autemsolutions" target="blank">
+                  <img src="<?php bloginfo('template_url') ?>/img/instagram.png">
+                </a>
               </div>
-              <script async src="https://static.addtoany.com/menu/page.js"></script>
               <!-- AddToAny END -->
              </li>
           </ul>

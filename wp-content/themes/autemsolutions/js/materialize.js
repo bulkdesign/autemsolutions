@@ -2716,7 +2716,7 @@ $(document).ready(function(){
 	$.scrollSpy = function(selector, options) {
 	  var defaults = {
 			throttle: 100,
-			scrollOffset: 155 // offset - 200 allows elements near bottom of page to scroll
+			scrollOffset: 100 // offset - 200 allows elements near bottom of page to scroll
     };
     options = $.extend(defaults, options);
 

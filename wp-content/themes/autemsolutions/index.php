@@ -21,17 +21,22 @@ get_header(); ?>
   <div class="section">
     <div class="row">
       <div class="col s12">
-        <h1 class="autem-text center titulo scrollspy" id="quemsomos">Quem somos</h1>
+        <h1 class="autem-text center titulo scrollspy" id="autem">Autem</h1>
       </div>
-      <div class="col s12 m9">
+      <div class="col s12 center">
+        <img class="responsive-img" src="<?php bloginfo('template_url') ?>/img/bg.png">
+      </div>
+      <div class="col s12">
         <h3 class="titulo autem-text">Venha com a gente nessa cauda de cometa.</h3>
         <div style="inline-block">
           Somos uma fábrica de foguetes. Sim, somos esse foguetinho aí que você está vendo em nossa identidade e colaboraremos para a sua empresa ser um também – ao infinito e além!
           <br><br>
+          <div class="bloco-azul-left"></div>
           A Autem é o resultado do nosso sonho, então sinta-se à vontade para compartilhar o seu conosco, queremos conhecer as suas aspirações, de verdade.
           <br><br>
           Por aqui trabalhamos de forma horizontal, sem barreiras entre as pessoas – e não somente entre os profissionais da Autem, mas principalmente entre nós e você. Estamos juntos nessa, não há motivo para hierarquizarmos nada, pelo contrário.
           <br><br>
+          <div class="bloco-azul-right"></div>
           Trabalhamos com inovação e temos certeza de que ela nos permite evoluir – e em todos os sentidos: se a humanidade chegou até aqui, com certeza é porque algumas pessoas, individualmente ou em grupo, inovaram, mas não existe inovação sem pesquisa e referências, e nós sabemos muito bem disso. Inovamos sempre a partir de uma base sólida.
           <br><br>
           Acreditamos que o nosso trabalho é o melhor do mundo, definitivamente amamos o que fazemos! E isso indica o seguinte: pensaremos e executaremos nossos planejamentos para a sua empresa com aquela vontade que só quem ama o que faz é capaz de sentir.
@@ -39,9 +44,6 @@ get_header(); ?>
           O nosso objetivo é sempre viabilizar um contexto favorável para que o seu sonho se realize. Nós criamos realidade a partir daquilo que você sonha.
         </div>
         <br><br>
-      </div>
-      <div class="col m3 hide-on-small-only center icone-quemsomos">
-        <img src="<?php bloginfo('template_url') ?>/img/foguete.png" />
       </div>
     </div>
   </div>
@@ -52,23 +54,33 @@ get_header(); ?>
   <div class="section">
     <div class="row">
       <div class="col s12">
-        <h1 class="center titulo scrollspy autem-text" id="equipe">Tripulação</h1>
+        <h1 class="center titulo scrollspy autem-text" id="tripulacao">Tripulação</h1>
       </div>
-      <div class="diferenciais">
+      <div class="tripulacao">
         <div class="col s12 m4 center">
-          <img src="http://i.imgur.com/hfH9CiC.png">
+          <img src="<?php bloginfo('template_url') ?>/img/1-anna.jpg">
           <h3 class="strong">Anna<br>Desbravadora intergaláctica</h3>
           <p>A Anna é formada em Comunicação Institucional pela UTFPR e pós-graduada em Comportamentos de Consumo. Com experiência anterior em agências de publicidade e assessorias de imprensa, por aqui ela é a responsável por passear pela infinidade do universo e trazer até nós todas as informações necessárias para subsidiar o nosso trabalho e, consequentemente, o seu sucesso. Inovamos a partir de muita pesquisa.</p>
         </div>
         <div class="col s12 m4 center">
-          <img src="http://i.imgur.com/hfH9CiC.png">
-          <h3 class="strong">Davi<br>Navegador espacial</h3>
-          <p>O Davi identifica espacial e temporalmente os territórios e rotas mais inóspitos, a fim de encontrar neles a área perfeita para a sua nave aterrissar ou até mesmo para evitar uma colisão com meteoros vagantes. Com 14 anos de experiência na área comercial e criação de departamentos comerciais, ele é formado em Economia pela Universidade Federal do Paraná e Gestão Comercial pela FAE Business School (Curitiba/PR), além de ter em sua mochila de suprimentos espaciais, treinamentos em metodologia de vendas pela Mercury International e outras instituições.</p>
+          <img src="<?php bloginfo('template_url') ?>/img/2-danielle.jpg">
+          <h3 class="strong">Danielle<br>Sentinela sideral</h3>
+          <p>Administradora com experiência em Planejamento, a Danielle organiza tudo o que a sua nave utilizará durante a jornada no espaço que iniciaremos juntos, mas sempre na velocidade da luz. Ela também utiliza seu histórico em Consultorias e Auditorias para manter o cronograma das estratégias em dia, porque a decolagem, o vôo e a aterrissagem da sua nave devem ser perfeitos. Pós-graduada em Comportamentos de Consumo, a nossa sentinela  ainda articula o fluxo de informações e ações para garantir que você chegue ao destino combinado no menor tempo possível.</p>
         </div>
         <div class="col s12 m4 center">
-          <img src="http://i.imgur.com/hfH9CiC.png">
+          <img src="<?php bloginfo('template_url') ?>/img/3-davi.jpg">
+          <h3 class="strong">Davi<br>Navegador espacial</h3>
+          <p>O Davi identifica espacial e temporalmente as rotas e territórios mais inóspitos, a fim de encontrar neles a área perfeita para a sua nave aterrissar ou até mesmo para evitar uma colisão com meteoros vagantes. Com 14 anos de experiência na área comercial e criação de departamentos comerciais, ele é formado em Economia pela Universidade Federal do Paraná e Gestão Comercial pela FAE Business School (Curitiba/PR), além de ter em sua mochila de suprimentos espaciais, treinamentos em metodologia de vendas pela Mercury International e outras instituições.</p>
+        </div>
+        <div class="col s12 m4 center">
+          <img src="<?php bloginfo('template_url') ?>/img/4-igor.jpg">
           <h3 class="strong">Igor<br>Mensageiro interplanetário</h3>
           <p>Redator publicitário há seis anos, Igor é graduado em Comunicação Organizacional pela UTFPR e especialista em Construção de Imagem. Desde 2008 realiza a assessoria de imprensa do maior evento de rua de Curitiba, é colunista do site Curitiba Cult, professor de escrita criativa e produção de conteúdo, e não descansa enquanto o maior número de pessoas possível não fica sabendo que a sua empresa existe.</p>
+        </div>
+        <div class="col s12 m4 center">
+          <img src="<?php bloginfo('template_url') ?>/img/5-rafaela.jpg">
+          <h3 class="strong">Rafaela<br>Caçadora de cometas</h3>
+          <p>A Rafaela viaja pelo universo em busca do buzz que somente os cometas mais brilhantes são capazes de causar. Entusiasta de novas ideias, encontra na união da sua formação em Marketing com seu repertório em Tendências de Mercado e Inovação, o mix perfeito para movimentar projetos inovadores, criativos e também para agitar o seu público quando ele está muito parado. Por aqui a Rafa ainda utiliza suas referências estéticas – resultados de seus estudos em História da Arte e experiência com construção de presença digital – para garantir que o seu sonho seja representado imageticamente como ele merece.</p>
         </div>
       </div>
     </div>
