@@ -23,15 +23,12 @@ get_header(); ?>
       <div class="col s12">
         <h1 class="autem-text center titulo scrollspy" id="autem">Autem</h1>
       </div>
-      <div class="col s12 center">
-        <img class="responsive-img" src="<?php bloginfo('template_url') ?>/img/bg.png">
-      </div>
       <div class="col s12">
         <h3 class="titulo autem-text">Venha com a gente nessa cauda de cometa.</h3>
         <div style="inline-block">
+          <div class="bloco-azul-left"></div>
           Somos uma fábrica de foguetes. Sim, somos esse foguetinho aí que você está vendo em nossa identidade e colaboraremos para a sua empresa ser um também – ao infinito e além!
           <br><br>
-          <div class="bloco-azul-left"></div>
           A Autem é o resultado do nosso sonho, então sinta-se à vontade para compartilhar o seu conosco, queremos conhecer as suas aspirações, de verdade.
           <br><br>
           Por aqui trabalhamos de forma horizontal, sem barreiras entre as pessoas – e não somente entre os profissionais da Autem, mas principalmente entre nós e você. Estamos juntos nessa, não há motivo para hierarquizarmos nada, pelo contrário.
