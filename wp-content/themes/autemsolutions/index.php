@@ -55,29 +55,31 @@ get_header(); ?>
       </div>
       <div class="tripulacao">
         <div class="col s12 m4 center">
-          <img src="<?php bloginfo('template_url') ?>/img/1-anna.jpg">
+          <img src="<?php bloginfo('template_url') ?>/img/1-anna.png">
           <h3 class="strong">Anna<br>Desbravadora intergaláctica</h3>
           <p>A Anna é formada em Comunicação Institucional pela UTFPR e pós-graduada em Comportamentos de Consumo. Com experiência anterior em agências de publicidade e assessorias de imprensa, por aqui ela é a responsável por passear pela infinidade do universo e trazer até nós todas as informações necessárias para subsidiar o nosso trabalho e, consequentemente, o seu sucesso. Inovamos a partir de muita pesquisa.</p>
         </div>
         <div class="col s12 m4 center">
-          <img src="<?php bloginfo('template_url') ?>/img/2-danielle.jpg">
+          <img src="<?php bloginfo('template_url') ?>/img/2-danielle.png">
           <h3 class="strong">Danielle<br>Sentinela sideral</h3>
           <p>Administradora com experiência em Planejamento, a Danielle organiza tudo o que a sua nave utilizará durante a jornada no espaço que iniciaremos juntos, mas sempre na velocidade da luz. Ela também utiliza seu histórico em Consultorias e Auditorias para manter o cronograma das estratégias em dia, porque a decolagem, o vôo e a aterrissagem da sua nave devem ser perfeitos. Pós-graduada em Comportamentos de Consumo, a nossa sentinela  ainda articula o fluxo de informações e ações para garantir que você chegue ao destino combinado no menor tempo possível.</p>
         </div>
         <div class="col s12 m4 center">
-          <img src="<?php bloginfo('template_url') ?>/img/3-davi.jpg">
+          <img src="<?php bloginfo('template_url') ?>/img/3-davi.png">
           <h3 class="strong">Davi<br>Navegador espacial</h3>
           <p>O Davi identifica espacial e temporalmente as rotas e territórios mais inóspitos, a fim de encontrar neles a área perfeita para a sua nave aterrissar ou até mesmo para evitar uma colisão com meteoros vagantes. Com 14 anos de experiência na área comercial e criação de departamentos comerciais, ele é formado em Economia pela Universidade Federal do Paraná e Gestão Comercial pela FAE Business School (Curitiba/PR), além de ter em sua mochila de suprimentos espaciais, treinamentos em metodologia de vendas pela Mercury International e outras instituições.</p>
         </div>
-        <div class="col s12 m4 center">
-          <img src="<?php bloginfo('template_url') ?>/img/4-igor.jpg">
-          <h3 class="strong">Igor<br>Mensageiro interplanetário</h3>
-          <p>Redator publicitário há seis anos, Igor é graduado em Comunicação Organizacional pela UTFPR e especialista em Construção de Imagem. Desde 2008 realiza a assessoria de imprensa do maior evento de rua de Curitiba, é colunista do site Curitiba Cult, professor de escrita criativa e produção de conteúdo, e não descansa enquanto o maior número de pessoas possível não fica sabendo que a sua empresa existe.</p>
-        </div>
-        <div class="col s12 m4 center">
-          <img src="<?php bloginfo('template_url') ?>/img/5-rafaela.jpg">
-          <h3 class="strong">Rafaela<br>Caçadora de cometas</h3>
-          <p>A Rafaela viaja pelo universo em busca do buzz que somente os cometas mais brilhantes são capazes de causar. Entusiasta de novas ideias, encontra na união da sua formação em Marketing com seu repertório em Tendências de Mercado e Inovação, o mix perfeito para movimentar projetos inovadores, criativos e também para agitar o seu público quando ele está muito parado. Por aqui a Rafa ainda utiliza suas referências estéticas – resultados de seus estudos em História da Arte e experiência com construção de presença digital – para garantir que o seu sonho seja representado imageticamente como ele merece.</p>
+        <div class="col s12 m8 offset-m2 margin-top">
+          <div class="col s12 m6 center">
+            <img src="<?php bloginfo('template_url') ?>/img/4-igor.png">
+            <h3 class="strong">Igor<br>Mensageiro interplanetário</h3>
+            <p>Redator publicitário há seis anos, Igor é graduado em Comunicação Organizacional pela UTFPR e especialista em Construção de Imagem. Desde 2008 realiza a assessoria de imprensa do maior evento de rua de Curitiba, é colunista do site Curitiba Cult, professor de escrita criativa e produção de conteúdo, e não descansa enquanto o maior número de pessoas possível não fica sabendo que a sua empresa existe.</p>
+          </div>
+          <div class="col s12 m6 center">
+            <img src="<?php bloginfo('template_url') ?>/img/5-rafaela.png">
+            <h3 class="strong">Rafaela<br>Caçadora de cometas</h3>
+            <p>A Rafaela viaja pelo universo em busca do buzz que somente os cometas mais brilhantes são capazes de causar. Entusiasta de novas ideias, encontra na união da sua formação em Marketing com seu repertório em Tendências de Mercado e Inovação, o mix perfeito para movimentar projetos inovadores, criativos e também para agitar o seu público quando ele está muito parado. Por aqui a Rafa ainda utiliza suas referências estéticas – resultados de seus estudos em História da Arte e experiência com construção de presença digital – para garantir que o seu sonho seja representado imageticamente como ele merece.</p>
+          </div>
         </div>
       </div>
     </div>
