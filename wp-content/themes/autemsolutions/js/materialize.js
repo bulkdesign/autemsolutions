@@ -2715,8 +2715,8 @@ $(document).ready(function(){
 	 */
 	$.scrollSpy = function(selector, options) {
 	  var defaults = {
-			throttle: 100,
-			scrollOffset: 100 // offset - 200 allows elements near bottom of page to scroll
+			throttle: 30,
+			scrollOffset: 170 // offset - 200 allows elements near bottom of page to scroll
     };
     options = $.extend(defaults, options);
 

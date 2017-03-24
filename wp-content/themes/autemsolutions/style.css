@@ -119,8 +119,16 @@ nav .button-collapse {
 }
 
 @media (max-width:602px) {
+	nav .brand-logo {
+    	padding: 14px 0;
+	}
+
 	h3.titulo {
 		margin: 0px 0 30px;
+	}
+
+	.margin-top {
+		margin: 0;
 	}
 }
 
