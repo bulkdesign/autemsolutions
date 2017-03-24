@@ -15,28 +15,33 @@
 </head>
 <body>
 <!-- NAVBAR -->
-<div class="navbar-fixed scrollspy hide-on-small-only" id="home">
-  <nav class="white-transparent" role="navigation">
-    <div class="nav-wrapper container">
-      <ul class="hide-on-med-and-down">
-        <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
-      </ul>
+<div class="navbar-fixed scrollspy hide-on-med-and-down" id="home">
+  <nav class="white-transparent">
+    <div class="nav-wrapper container row">
+      <div class="col s12 m2">
+        <a href="/" class="brand-logo hide-on-med-and-down">
+          <img class="center" src="<?php bloginfo('template_url') ?>/img/logo_autem.png" />
+        </a>
+      </div>
+      <div class="col m10">
+        <ul class="right hide-on-med-and-down">
+          <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
+        </ul>
+      </div>
     </div>
   </nav>
 </div>
-<!-- MENU MOBILE -->
-<div class="navbar-fixed scrollspy hide-on-med-and-up" id="home">
-  <nav class="autem z-depth-0" role="navigation">
-    <div class="nav-wrapper container">
-      <ul id="nav-mobile" class="side-nav">
+<!-- NAVBAR MOBILE -->
+<div class="navbar-fixed scrollspy hide-on-large-only" id="home">
+  <nav class="autem z-depth-0">
+    <div class="nav-wrapper container row">
+      <div class="col s12">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="/" class="brand-logo center mobile-logo"><img src="<?php bloginfo('template_url') ?>/img/logo_mobile.png" /></a>
+      </div>
+      <ul class="side-nav" id="mobile-demo">
         <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      <div class="container">
-        <div class="col s12 right">
-          <a id="logo-container" href="/" class="brand-logo hide-on-med-and-up"><img src="<?php bloginfo('template_url') ?>/img/logo_mobile.png" /></a>
-        </div>
-      </div>
     </div>
   </nav>
 </div>
