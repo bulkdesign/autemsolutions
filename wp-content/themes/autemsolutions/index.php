@@ -124,42 +124,59 @@ get_header(); ?>
   </div>
 </div>
 <!-- SERVICOS -->
-<!-- <div class="autem-text">
+<div class="autem-text">
   <div class="container">
     <div class="section">
       <div class="row">
         <div class="col s12">
           <h1 class="titulo center scrollspy autem-text" id="servicos">Serviços</h1>
         </div>
-        <div class="col s12">
-          <p class="grey-text">Bom, não chegamos a conversar a respeito desta parte do site. De qualquer forma teremos que mexer nela quando você enviar os textos e etc.
-        <br><br></p>
-        </div>
         <div class="servicos">
           <div class="col s12 m3 center">
-            <img src="<?php // bloginfo('template_url') ?>/img/feature1.png">
-            <h3 class="strong">Decolagem de foguetes</h3>
-            <p class="grey-text">Lançamentos contábeis, balanço patrimonial, demonstrações de resultados e SPED contábil.</p>
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/1.png">
+            <h3 class="strong">Pesquisas de mercado</h3>
+            <p class="grey-text">Primárias, qualitativas e quantitativas; Secundárias exploratórias; Pesquisa de público-alvo; Tendências.</p>
           </div>
           <div class="col s12 m3 center">
-            <img src="<?php // bloginfo('template_url') ?>/img/feature2.png">
-            <h3 class="strong">Treinamento de Tinder</h3>
-            <p class="grey-text">Planejamento triburário, escrituração e livros fiscais, apuração e controle de taxas e tributos, atendimento de obrigações acessórias e parcelamento de tributos.</p>
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/2.png">
+            <h3 class="strong">Elaboração de estratégias de comunicação e marketing</h3>
+            <p class="grey-text">Criação e/ou posicionamento de marca; Estruturação ou reestruturação de portfólio; Posicionamento de preço e pagamento; Elaboração de processos e canais de venda.</p>
           </div>
           <div class="col s12 m3 center">
-            <img src="<?php // bloginfo('template_url') ?>/img/feature3.png">
-            <h3 class="strong">Consigliere de mafiosos</h3>
-            <p class="grey-text">Admissões e rescisões, férias e 13º, pró-labore, impostos previdenciários e orientação e adequação das Normas Trabalhistas (PPRA, PCMSO, PPP).</p>
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/3.png">
+            <h3 class="strong">Estruturação de departamento vendas</h3>
+            <p class="grey-text">Gerenciamento dos processos de vendas; Suporte para equipe de vendas; Gestão das vendas e outras especificidades do departamento.</p>
           </div>
           <div class="col s12 m3 center">
-            <img src="<?php // bloginfo('template_url') ?>/img/feature4.png"></a>
-            <h3 class="strong">YouTuber amador</h3>
-            <p class="grey-text">Abertura e encerramento de empresas, mudança societária, planejamento estratégico, acessoria empresarial e serviços para pessoas físicas e autônomos.</p>
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/4.png"></a>
+            <h3 class="strong">Treinamentos de marketing, comunicação e vendas</h3>
+            <p class="grey-text">Treinamentos individuais ou de equipe; Compartilhamento de estratégias de persuasão; Estudos em oratória, entre outros.</p>
+          </div>
+          <!-- Parte de baixo -->
+          <div class="col s12 m3 center">
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/5.png">
+            <h3 class="strong">Criação e planejamento de canais de comunicação integrada</h3>
+            <p class="grey-text">Estratégias on e offline com foco em veículos ou redes sociais; Definição de materiais e formatos de conteúdos impressos e digitais; Segmentação de mídia, entre outros.</p>
+          </div>
+          <div class="col s12 m3 center">
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/6.png">
+            <h3 class="strong">Criação e gerenciamento de ações de marketing e promoção</h3>
+            <p class="grey-text">Definição de critérios de promoção; Desenvolvimento e acompanhamento de ações promocionais; Integração dos canais de marketing.</p>
+          </div>
+          <div class="col s12 m3 center">
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/7.png">
+            <h3 class="strong">Indicação de fornecedores para projetos de marketing e acompanhamento de entrega</h3>
+            <p class="grey-text">Definição de serviços condizentes com cada cliente ou projeto; Contratação; Briefing e avaliação dos profissionais; Contratação, entre outros.</p>
+          </div>
+          <div class="col s12 m3 center">
+            <img src="<?php bloginfo('template_url') ?>/img/servicos/8.png"></a>
+            <h3 class="strong">Acompanhamento de performance das ações de marketing e vendas</h3>
+            <p class="grey-text">Avaliação de índices; Adaptação de estratégias; Definição de novos objetivos, entre outras demandas.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
 <?php get_footer(); ?>

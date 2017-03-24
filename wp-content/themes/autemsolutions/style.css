@@ -198,7 +198,7 @@ nav .button-collapse {
 	max-width: 200px;
 }
 
-.quemsomos img, .diferenciais img, .servicos img {
+.quemsomos img, .diferenciais img {
     width: 80px;
 }
 
@@ -215,6 +215,14 @@ nav .button-collapse {
 .social img {
 	max-width: 50px;
 	padding: 0 8px;
+}
+
+.servicos p {
+	height: 160px;
+}
+
+.servicos img {
+	width: 60px;
 }
 
 /* VIDEOS */
