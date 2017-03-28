@@ -58,7 +58,7 @@ h3.modaltitulo {
 }
 
 /* HEADER */
-nav {
+ul.white-transparent.right.hide-on-med-and-down, nav {
     height: 80px;
 }
 
@@ -73,7 +73,6 @@ nav .brand-logo {
 }
 
 nav .brand-logo img {
-	width: 80%;
 	padding-top: 5px;
 }
 
@@ -222,7 +221,7 @@ nav .button-collapse {
 }
 
 .servicos img {
-	width: 60px;
+	width: 70px;
 }
 
 /* VIDEOS */

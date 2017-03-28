@@ -16,7 +16,7 @@
 <body>
 <!-- NAVBAR -->
 <div class="navbar-fixed scrollspy hide-on-med-and-down" id="home">
-  <nav class="white-transparent z-depth-0">
+  <nav class="autem z-depth-0">
     <div class="nav-wrapper container row">
       <div class="col s12 m2">
         <a href="/" class="brand-logo hide-on-med-and-down">
@@ -24,7 +24,7 @@
         </a>
       </div>
       <div class="col m10">
-        <ul class="right hide-on-med-and-down">
+        <ul class="white-transparent right hide-on-med-and-down">
           <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
         </ul>
       </div>
