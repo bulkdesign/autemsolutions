@@ -25,7 +25,13 @@
       </div>
       <div class="col m10">
         <ul class="white-transparent right hide-on-med-and-down">
-          <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
+          <li><a href="http://www.autemsolutions.com.br">Home</a></li>
+          <li><a href="http://www.autemsolutions.com.br/#autem">Autem</a></li>
+          <li><a href="http://www.autemsolutions.com.br/#tripulacao">Tripulação</a></li>
+          <li><a href="http://www.autemsolutions.com.br/#diferenciais">Diferenciais</a></li>
+          <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
+          <li><a href="#">Vídeos</a></li>
+          <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
         </ul>
       </div>
     </div>
@@ -40,7 +46,13 @@
         <a href="/" class="brand-logo center mobile-logo"><img src="<?php bloginfo('template_url') ?>/img/logo_mobile.png" /></a>
       </div>
       <ul class="side-nav" id="mobile-demo">
-        <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
+        <li><a href="http://www.autemsolutions.com.br">Home</a></li>
+        <li><a href="http://www.autemsolutions.com.br/#autem">Autem</a></li>
+        <li><a href="http://www.autemsolutions.com.br/#tripulacao">Tripulação</a></li>
+        <li><a href="http://www.autemsolutions.com.br/#diferenciais">Diferenciais</a></li>
+        <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
+        <li><a href="#">Vídeos</a></li>
+        <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
       </ul>
     </div>
   </nav>
