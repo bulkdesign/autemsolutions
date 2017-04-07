@@ -1,0 +1,80 @@
+/* PRESTADORES DE SERVICO */
+body {
+	background: url(../autemsolutions/img/launch.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+span.wpcf7-list-item {
+	margin: 15px 10px !important;
+}
+
+.wpcf7-list-item-label {
+	color: #ffffff;
+}
+
+input[type=text], input[type=password], input[type=email], textarea.wpcf7-form-control.wpcf7-textarea {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.select-wrapper input.select-dropdown {
+	background-color: rgba(255, 255, 255, 0.25);
+	padding-left: 10px;
+}
+
+[type=radio]:checked, [type=radio]:not(:checked) {
+	position: relative;
+	left: 0;
+	opacity: 1;
+}
+
+[type=checkbox]+label:before, [type=checkbox]:not(.filled-in)+label:after {
+	border-color: #ffffff;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #ffffff;
+}
+
+ul.dropdown-content {
+	width: 100.9% !important;
+}
+
+ul.dropdown-content li:hover, ul.dropdown-content li:first-child {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea {
+	width: 100%;
+	font-size: 1rem;
+    margin: 0 0 20px;
+    padding: 10px;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #CAD00B;
+	margin: -20px 0 20px;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-mail-sent-ng {
+    width: 49%;
+    text-align: center;
+    margin: 0px auto !important;
+}
+
+div.wpcf7-validation-errors {
+	background-color: #f7e700;
+}
+
+div.wpcf7-mail-sent-ng {
+	color: #ffffff;
+	background-color: #ff0000;
+}

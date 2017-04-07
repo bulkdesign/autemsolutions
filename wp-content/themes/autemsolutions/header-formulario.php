@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <title>Autem Solutions</title>
+  <title>Prestadores de Serviço | Autem Solutions</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="<?php bloginfo('template_url') ?>/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="<?php bloginfo('template_url') ?>/formulario.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?php bloginfo('template_url') ?>/font/Mangerica-Regular/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <?php wp_head(); ?>
 </head>
-<body>
+<body class="autem">
 <!-- NAVBAR -->
 <div class="navbar-fixed scrollspy hide-on-med-and-down" id="home">
   <nav class="autem">
@@ -30,9 +31,9 @@
           <li><a href="http://www.autemsolutions.com.br/#tripulacao">Tripulação</a></li>
           <li><a href="http://www.autemsolutions.com.br/#diferenciais">Diferenciais</a></li>
           <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
-          <li><a href="#">Vídeos</a></li>
+          <li><a href="http://www.autemsolutions.com.br/videos">Vídeos</a></li>
           <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
-          <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Prestadores de Serviço</a></li>
+          <li><a href="#">Prestadores de Serviço</a></li>
         </ul>
       </div>
     </div>
@@ -52,9 +53,9 @@
         <li><a href="http://www.autemsolutions.com.br/#tripulacao">Tripulação</a></li>
         <li><a href="http://www.autemsolutions.com.br/#diferenciais">Diferenciais</a></li>
         <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
-        <li><a href="#">Vídeos</a></li>
+        <li><a href="http://www.autemsolutions.com.br/videos">Vídeos</a></li>
         <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
-        <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Prestadores de Serviço</a></li>
+        <li><a href="#">Prestadores de Serviço</a></li>
       </ul>
     </div>
   </nav>
