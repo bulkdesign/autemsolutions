@@ -22,6 +22,7 @@ $(document).ready(function(){
     }
             
     //Quando o campo cep perde o foco.
+    $("#cep").mask("99999-999");
     $("#cep").blur(function() {
 
         //Nova variável "cep" somente com dígitos.
@@ -91,4 +92,13 @@ $(document).ready(function(){
 	        }
 	    });
 	});
+
+    $('input[type=radio]').change(function () {
+        if ($(this).val() == 'Sim') {
+            $('#outros').show();
+        } else {
+            $('#outros').hide();
+        }
+    });
+
 });

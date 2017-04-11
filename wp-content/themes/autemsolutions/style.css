@@ -74,6 +74,7 @@ nav .brand-logo {
 
 nav .brand-logo img {
 	padding-top: 5px;
+	max-width: 90%;
 }
 
 nav .brand-logo.mobile-logo img {
@@ -94,7 +95,15 @@ nav .button-collapse {
 	margin-top: 16px !important;
 }
 
-@media (max-width:994px) {
+@media (max-width: 1150px) {
+	nav ul a {
+	    font-size: 0.9rem;
+	    display: block;
+	    padding: 0 10px;
+	}
+}
+
+@media (max-width:992px) {
 	.container {
 		width: 80% !important;
 	}

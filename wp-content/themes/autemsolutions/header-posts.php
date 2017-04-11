@@ -32,7 +32,7 @@
           <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
           <li><a href="#">Vídeos</a></li>
           <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
-          <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Prestadores de Serviço</a></li>
+          <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Parceiros</a></li>
         </ul>
       </div>
     </div>
@@ -54,7 +54,7 @@
         <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
         <li><a href="#">Vídeos</a></li>
         <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
-        <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Prestadores de Serviço</a></li>
+        <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Parceiros</a></li>
       </ul>
     </div>
   </nav>

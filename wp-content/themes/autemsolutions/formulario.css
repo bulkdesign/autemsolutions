@@ -52,6 +52,22 @@ ul.dropdown-content li:hover, ul.dropdown-content li:first-child {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
+#outros {
+	display: none;
+}
+
+p.titulo-outra-area {
+	margin-bottom: -20px;
+}
+
+p > .wpcf7-form-control-wrap.outra-area {
+	margin-bottom: 10px;
+}
+
+span.wpcf7-form-control-wrap.outra-area {
+	float: left;
+}
+
 textarea.wpcf7-form-control.wpcf7-textarea {
 	width: 100%;
 	font-size: 1rem;
