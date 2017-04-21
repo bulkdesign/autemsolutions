@@ -3,8 +3,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <meta name="keywords" content="">
-  <meta name="description" content="">
+  <meta name="keywords" content="autem, solutions, autem solutions, consultoria, marketing, vendas, empreendedorismo">
+  <meta name="description" content="Nós somos a Autem Solutions. O nosso objetivo é sempre viabilizar um contexto favorável para que o seu sonho se realize.">
+  <meta name="google-site-verification" content="ajMSUi6wddq-vPzXnC9nLI_d8CdLmUwdkzRAO4LSoBw" />
   <title>Autem Solutions</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
