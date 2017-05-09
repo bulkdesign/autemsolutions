@@ -30,7 +30,7 @@
           <li><a href="http://www.autemsolutions.com.br/#tripulacao">Tripulação</a></li>
           <li><a href="http://www.autemsolutions.com.br/#diferenciais">Diferenciais</a></li>
           <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
-          <li><a href="#">Vídeos</a></li>
+          <li><a href="#">Tips</a></li>
           <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
           <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Parceiros</a></li>
         </ul>
@@ -52,7 +52,7 @@
         <li><a href="http://www.autemsolutions.com.br/#tripulacao">Tripulação</a></li>
         <li><a href="http://www.autemsolutions.com.br/#diferenciais">Diferenciais</a></li>
         <li><a href="http://www.autemsolutions.com.br/#servicos">Serviços</a></li>
-        <li><a href="#">Vídeos</a></li>
+        <li><a href="#">Tips</a></li>
         <li><a href="http://www.autemsolutions.com.br/#contato">Contato</a></li>
         <li><a href="http://www.autemsolutions.com.br/prestadores-servico">Parceiros</a></li>
       </ul>

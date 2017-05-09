@@ -1,0 +1,43 @@
+10 abril 2017 14:03:44 	 PHP 5.6.26 	 Error fetching OAuth2 access token, message: 'invalid_grant' :: 400 
+10 abril 2017 14:17:03 	 PHP 5.6.26Array
+(
+    [date] => 10 abril 2017 14:17:00
+    [tipo-prestador] => Pessoa Física
+    [cnpj-prestador] => 076.881.629-71
+    [nome-prestador] => William Kunitake
+    [telefone-prestador] => (41) 99222-9812
+    [email-prestador] => william.kunitake@gmail.com
+    [cep] => 82300357
+    [rua] => Rua Adaguimar de Pinho Klat
+    [numero-residencial] => 5
+    [cidade] => Curitiba
+    [uf] => PR
+    [complemento-prestador] => Casa
+    [areas-prestador] => Marketing Digital (Mídias Sociais e Google), Web Designer
+    [portfolio-prestador] => 
+    [sobre-prestador] => Testando...
+    [ERROR_MSG] => Error in Google Request
+    [TRACE_STK] => #0 /home/autemcon/autemsolutions.com.br/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/DefaultServiceRequest.php(146): Google\Spreadsheet\DefaultServiceRequest->execute(Resource id #330)
+#1 /home/autemcon/autemsolutions.com.br/wp-content/plugins/cf7-google-sheets-connector/lib/asimlqt/php-google-spreadsheet-client/src/Google/Spreadsheet/ListFeed.php(78): Google\Spreadsheet\DefaultServiceRequest->post('https://spreads...', '<entry xmlns="h...')
+#2 /home/autemcon/autemsolutions.com.br/wp-content/plugins/cf7-google-sheets-connector/lib/google-sheets.php(80): Google\Spreadsheet\ListFeed->insert(Array)
+#3 /home/autemcon/autemsolutions.com.br/wp-content/plugins/cf7-google-sheets-connector/includes/class-gs-service.php(110): googlesheet->add_row(Array)
+#4 [internal function]: Gs_Connector_Service->cf7_save_to_google_sheets(Object(WPCF7_ContactForm))
+#5 /home/autemcon/autemsolutions.com.br/wp-includes/class-wp-hook.php(298): call_user_func_array(Array, Array)
+#6 /home/autemcon/autemsolutions.com.br/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#7 /home/autemcon/autemsolutions.com.br/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /home/autemcon/autemsolutions.com.br/wp-content/plugins/contact-form-7/includes/submission.php(161): do_action('wpcf7_mail_sent', Object(WPCF7_ContactForm))
+#9 /home/autemcon/autemsolutions.com.br/wp-content/plugins/contact-form-7/includes/submission.php(28): WPCF7_Submission->submit()
+#10 /home/autemcon/autemsolutions.com.br/wp-content/plugins/contact-form-7/includes/contact-form.php(645): WPCF7_Submission::get_instance(Object(WPCF7_ContactForm))
+#11 /home/autemcon/autemsolutions.com.br/wp-content/plugins/contact-form-7/includes/controller.php(57): WPCF7_ContactForm->submit(true)
+#12 /home/autemcon/autemsolutions.com.br/wp-content/plugins/contact-form-7/includes/controller.php(18): wpcf7_ajax_json_echo()
+#13 [internal function]: wpcf7_control_init('')
+#14 /home/autemcon/autemsolutions.com.br/wp-includes/class-wp-hook.php(298): call_user_func_array('wpcf7_control_i...', Array)
+#15 /home/autemcon/autemsolutions.com.br/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#16 /home/autemcon/autemsolutions.com.br/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#17 /home/autemcon/autemsolutions.com.br/wp-settings.php(470): do_action('wp_loaded')
+#18 /home/autemcon/autemsolutions.com.br/wp-config.php(95): require_once('/home/autemcon/...')
+#19 /home/autemcon/autemsolutions.com.br/wp-load.php(37): require_once('/home/autemcon/...')
+#20 /home/autemcon/autemsolutions.com.br/wp-blog-header.php(13): require_once('/home/autemcon/...')
+#21 /home/autemcon/autemsolutions.com.br/index.php(17): require('/home/autemcon/...')
+#22 {main}
+)
