@@ -26,8 +26,17 @@ html {
 	background-color: #12b0bf !important;
 }
 
+blockquote {
+	color: #12b0bf;
+	border-color: #12b0bf;
+}
+
 .autem-text {
 	color: #12b0bf !important;
+}
+
+.autem-text-dark {
+	color: #0B6C75 !important;
 }
 
 .autem-dark {
@@ -231,6 +240,32 @@ nav .button-collapse {
 
 .servicos img {
 	width: 70px;
+}
+
+/* BLOG */
+.card .card-action {
+	height: 400px;
+}
+
+.card-image img {
+	max-height: 200px;
+}
+
+.card-action h3 {
+	font-size: 22px;
+}
+
+.entry-header {
+	margin-top: 70px;
+}
+
+.entry-content.tips img {
+	float: left;
+	margin: 15px 20px 20px 0px;
+}
+
+.entry-content.tips {
+	margin: 20px 0 60px;
 }
 
 /* VIDEOS */
