@@ -6,13 +6,15 @@
 
 /* Initialization */
 $(document).ready(function(){
-	$('.parallax').parallax();
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
 	$('.slider').slider({interval: 2500, transition:1200});
 	$('.scrollspy').scrollSpy();
 	$('.modal').modal();
 	$(".button-collapse").sideNav();
 	$(".dropdown-button").dropdown();
     $('select').material_select();
+    $('.astronauta').parallax({ speed: 0.6, axis: 'y' });
+
 
 	function limpa_formulário_cep() {
         // Limpa valores do formulário de cep.

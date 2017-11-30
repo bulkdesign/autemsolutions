@@ -9,6 +9,7 @@
   <title>Autem Solutions</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="<?php bloginfo('template_url') ?>/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?php bloginfo('template_url') ?>/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?php bloginfo('template_url') ?>/font/Mangerica-Regular/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?php bloginfo('template_url') ?>/font/Mangerica-Thin/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -16,8 +17,13 @@
   <?php wp_head(); ?>
 </head>
 <body>
+<!-- HEADER -->
+<div class="fullwidth">
+  <h1 class="white-text header">Marketing to boost your dreams</h1>
+  <img src="<?php bloginfo('template_url'); ?>/img/header.png" />
+</div>
 <!-- NAVBAR -->
-<div class="navbar-fixed scrollspy hide-on-med-and-down" id="home">
+<div class="scrollspy hide-on-med-and-down" id="home">
   <nav class="autem z-depth-0">
     <div class="nav-wrapper container row">
       <div class="col s12 m2">
@@ -26,7 +32,7 @@
         </a>
       </div>
       <div class="col m10">
-        <ul class="white-transparent right hide-on-med-and-down">
+        <ul class="right hide-on-med-and-down">
           <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) ); ?>
         </ul>
       </div>

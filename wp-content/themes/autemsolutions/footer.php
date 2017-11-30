@@ -8,50 +8,43 @@
 ?>
 
 <footer class="page-footer autem-dark">
-  <div class="container">
+  <div class="container padding-top">
     <div class="row">
-      <div class="col s12 m4">
-        <h5 class="white-text">Autem Solutions</h5>
-        <p class="grey-text text-lighten-4">
-          E-mail: <a href="mailto:hello@autemsolutions.com.br">hello@autemsolutions.com.br</a>
-          <br>
-          Fone: (41) 4101-7740
-        </p>
-      </div>
-      <div class="col m4">
-        <h5 class="white-text scrollspy" id="contato">Contato</h5>
-        <div class="row">
-          <?php echo do_shortcode('[contact-form-7 id="18" title="Contato"]'); ?>
-          <!--  <form class="col s12">
-            <div class="row">
-              <div class="input-field col s12">
-                <input placeholder="Nome" id="nome" type="text" class="validate">
-                <input placeholder="E-mail" id="email" type="email" class="validate">
-                <input placeholder="Telefone" id="phone" type="text" class="validate">
-                <button class="right btn waves-effect waves-light" type="submit" name="action">Enviar
-                </button>
-              </div>
-            </div>
-          </form> -->
+      <div class="col s12">
+        <div class="col s12 m6">
+          <h5 class="white-text">AUTEM SOLUTIONS</h5>
+          <p class="grey-text text-lighten-4">
+            E-mail: <a href="mailto:hello@autemsolutions.com.br">hello@autemsolutions.com.br</a>
+            <br>
+            Fone: (41) 4101-7740
+            <br>
+            Rua Trajano Reis, 472 - São Francisco, Curitiba - PR
+            <br>
+            CEP 80510-220
+          </p>
         </div>
-      </div>
-      <div class="col m1">&nbsp;</div>
-      <div class="col m3">
-        <h5 class="white-text">Nós, nas Redes Sociais</h5>
-          <ul>
-            <li>
-              <!-- AddToAny BEGIN -->
-              <div class="a2a_kit a2a_kit_size_32 a2a_default_style social">
-                <a href="https://www.facebook.com/autemsolutions" target="blank">
-                  <img src="<?php bloginfo('template_url') ?>/img/facebook.png">
-                </a>
-                <a href="https://www.instagram.com/autemsolutions" target="blank">
-                  <img src="<?php bloginfo('template_url') ?>/img/instagram.png">
-                </a>
-              </div>
-              <!-- AddToAny END -->
-             </li>
-          </ul>
+        <div class="col m6">
+          <div class="right">
+            <h5 class="white-text">CONECTE-SE CONOSCO</h5>
+            <ul class="right right-align">
+              <li>
+                <!-- AddToAny BEGIN -->
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style social">
+                  <a href="https://www.facebook.com/autemsolutions" target="blank">
+                    <img src="<?php bloginfo('template_url') ?>/img/facebook.png">
+                  </a>
+                  <a href="https://www.instagram.com/autemsolutions" target="blank">
+                    <img src="<?php bloginfo('template_url') ?>/img/instagram.png">
+                  </a>
+                  <a href="https://www.linkedin.com/company/16221781/" target="blank">
+                    <img src="<?php bloginfo('template_url') ?>/img/linkedin.png">
+                  </a>
+                </div>
+                <!-- AddToAny END -->
+               </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -101,6 +94,7 @@ var google_remarketing_only = true;
   <script src="<?php bloginfo('template_url') ?>/js/jquery.mask.min.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/materialize.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/init.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/js/jquery.parallax.js"></script>
   <script type="text/javascript">
   _linkedin_data_partner_id = "46180";
   </script><script type="text/javascript">
