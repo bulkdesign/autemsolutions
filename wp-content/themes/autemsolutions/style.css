@@ -22,6 +22,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 html {
+	width: 100%;
 	font-family:'Conv_Mangerica-Regular' !important;
 }
 
@@ -60,7 +61,7 @@ h1 {
     margin: 0px;
     padding: 0px;
     background-size: 60%;
-    height: 661px;
+    height: 610px;
     width: 60%;
     left: 0;
     position: absolute;
@@ -71,6 +72,24 @@ h1.header {
 	position: absolute;
     text-transform: uppercase;
     font-size: 3em;
+}
+
+.col.s12.comotrabalhamos {
+    padding: 50px 0px 30px !important;
+}
+
+.col.l10.push-l1.s12.padding-bottom30 {
+	padding-bottom: 30px !important;
+}
+
+.comotrabalhamos img {
+	display: block;
+	margin: 0px auto;
+}
+
+.imagem-final img {
+	width: 100%;
+	height: 400px;
 }
 
 blockquote {
@@ -108,6 +127,10 @@ blockquote {
 
 .padding-top {
 	padding-top: 20px;
+}
+
+.padding-top30 {
+	padding-top: 30px;
 }
 
 .slider .slides {
@@ -157,6 +180,10 @@ nav ul li a {
 
 nav .button-collapse {
 	margin-top: 11px;
+}
+
+div#home {
+    z-index: 99999 !important;
 }
 
 .slideshow_slide.slideshow_slide_image img {

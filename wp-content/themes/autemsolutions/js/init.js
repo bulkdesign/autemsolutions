@@ -14,7 +14,7 @@ $(document).ready(function(){
 	$(".dropdown-button").dropdown();
     $('select').material_select();
     $('.astronauta').parallax({ speed: 0.6, axis: 'y' });
-
+    $("#home").sticky({topSpacing:0});
 
 	function limpa_formulário_cep() {
         // Limpa valores do formulário de cep.

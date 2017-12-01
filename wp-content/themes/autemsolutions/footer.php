@@ -49,7 +49,7 @@
     </div>
   </div>
   <div class="footer-copyright">
-    <div class="container center">
+    <div class="container center" style="font-size: 11px;">
       Todos os direitos reservados &copy; <?php echo date('Y'); ?> | Made by <a class="purple-text" href="http://www.bulkdesign.com.br">Bulk Design</a>
     </div>
   </div>
@@ -95,6 +95,8 @@ var google_remarketing_only = true;
   <script src="<?php bloginfo('template_url') ?>/js/materialize.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/init.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/jquery.parallax.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/js/css3-animate-it.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/js/jquery.sticky.js"></script>
   <script type="text/javascript">
   _linkedin_data_partner_id = "46180";
   </script><script type="text/javascript">

@@ -50,7 +50,7 @@ get_header(); ?>
 </div>
 
 <!-- COMO TRABALHAMOS -->
-<div class="black-text">
+<div class="autem white-text">
   <div class="container">
     <div class="section">
       <div class="row">
@@ -68,15 +68,43 @@ get_header(); ?>
             Nosso foguete transforma dados em ações. Esse é o jeito Autem Solutions de trabalhar: respeitando a confiança depositada por nossos clientes e utilizando metodologias consagradas para garantir a qualidade em todos os serviços prestados. 
           </p>
         </div>
-        <div class="col s12">
-          <img class="center-align" src="<?php bloginfo('template_url'); ?>/img/solucoes-inteligentes.png" />
+
+        <div class="col s12 comotrabalhamos">
+          <div class="animatedParent" data-sequence="100">
+            <h3 class="center animated growIn" data-id="1">Soluções Inteligentes</h3>
+          </div>
         </div>
+        <div class="col l10 push-l1 s12 padding-bottom30">
+          <div class="animatedParent" data-sequence="300">
+            <div class="col s25 animated growIn" data-id="1">
+              <img src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/icone1.png" />
+              <p class="center">Pesquisa</p>
+            </div>
+            <div class="col s25 animated fadeInUpShort bounceOutDown" data-id="2">
+              <img class="padding-top30" src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/seta.png" />
+            </div>
+            <div class="col s25 animated growIn" data-id="3">
+              <img src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/icone2.png" />
+              <p class="center">Estratégia</p>
+            </div>
+            <div class="col s25 animated fadeInUpShort" data-id="4">
+              <img class="padding-top30" src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/seta.png" />
+            </div>
+            <div class="col s25 animated growIn" data-id="5">
+              <img src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/icone3.png" />
+              <p class="center">Plano de Comunicação</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="fullwidth">
-  <img src="<?php bloginfo('template_url'); ?>/img/imagem-final.png" />
+  <h1 class="white-text header">Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1>
+  <div style="width: 100%; height: 450px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(<?php bloginfo('template_url'); ?>/img/imagem-final.jpg); background-size: 100% 100%"></div>
 </div>
+
 
 <?php get_footer(); ?>
