@@ -5,7 +5,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="container">
 		<div class="entry-content" style="margin-top:80px">
-			<h2 class="autem-text">Autem Tips</h2>
+			<h1 class="white-text">AUTEM TIPS</h1>
 			<div class="divider"></div>
 			<br><br>
 			<div id="primary" class="content-area">
@@ -18,7 +18,7 @@
 							<div class="card hoverable">
 								<a href="<?php the_permalink();?>">
 							    	<div class="card-image">
-								    	<div class="card-action autem-text">
+								    	<div class="card-action white-text">
 							        		<?php the_post_thumbnail(); ?>
 							        		<h3><?php the_title();?></h3>
 							        		<div class="divider"></div>

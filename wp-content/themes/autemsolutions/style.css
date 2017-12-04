@@ -92,6 +92,20 @@ h1.header {
 	height: 400px;
 }
 
+.oquefazemos {
+	margin: 50px 0 50px 0;
+}
+
+.oquefazemos-descricao {
+	margin: -110px 0px 20px;
+}
+
+body.tips {
+	background: url(../autemsolutions/img/launch.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 blockquote {
 	color: #12b0bf;
 	border-color: #12b0bf;
