@@ -84,6 +84,11 @@
 					      				</div>
 					      			</div>
 				      			</div>
+				      			<div class="col s12">
+				      				<div class="container">
+				      					<?php echo do_shortcode('[contact-form-7 id="657" title="Rocket Marketing"]'); ?>
+				      				</div>
+				      			</div>
 				      		</div>
 				      	</div>
 				    </li>
@@ -113,7 +118,7 @@
 						      	</div>
 					      	</div>
 				    	</div>
-				      	<div class="collapsible-body white">
+				      	<div class="collapsible-body autem-darker">
 				      		<div class="row">
 				      			<div class="container">
 					      			<div class="col s12">
@@ -125,8 +130,13 @@
 					      				</div>
 					      			</div>
 					      			<div class="col s12 margin-top">
-					      				<p class="autem-text">Não fique mais nas mãos do acaso! Vamos descobrir qual é o melhor caminho rumo ao crescimento dos seus negócios.</p>
+					      				<p class="white-text">Não fique mais nas mãos do acaso! Vamos descobrir qual é o melhor caminho rumo ao crescimento dos seus negócios.</p>
 					      			</div>
+					      			<div class="col s12">
+				      					<div class="container">
+				      						<?php echo do_shortcode('[contact-form-7 id="658" title="Marketing Trends Solution"]'); ?>
+				      					</div>
+				      				</div>
 					      		</div>
 				      		</div>
 				      	</div>
@@ -161,7 +171,7 @@
 						      	</div>
 					      	</div>
 				    	</div>
-				      	<div class="collapsible-body">
+				      	<div class="collapsible-body autem-darker">
 				      		<div class="row">
 				      			<div class="container">
 					      			<div class="col s12">
@@ -169,6 +179,11 @@
 					      					<img class="responsive-img margin-top" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico3_img1.png" />
 					      				</div>
 					      			</div>
+					      			<div class="col s12">
+				      					<div class="container">
+				      						<?php echo do_shortcode('[contact-form-7 id="659" title="Target Customer"]'); ?>
+				      					</div>
+				      				</div>
 					      		</div>
 				      		</div>
 				      	</div>
@@ -201,7 +216,7 @@
 				      		<div class="row">
 				      			<div class="container">
 					      			<div class="col s12">
-										<p class="autem-text">Nosso trabalho dentro dessa solução é identificar qual a jornada de compra do consumidor dos serviços e produtos de nossos clientes, verificar se os seus atuais canais de comunicação e vendas são condizentes com o processo decisório desses consumidores e sugerir as mudanças necessárias.</p>
+										<p class="text-autem-darker">Nosso trabalho dentro dessa solução é identificar qual a jornada de compra do consumidor dos serviços e produtos de nossos clientes, verificar se os seus atuais canais de comunicação e vendas são condizentes com o processo decisório desses consumidores e sugerir as mudanças necessárias.</p>
 					      			</div>
 					      			<div class="col s12">
 					      				<div class="col s12 center">
@@ -211,6 +226,11 @@
 											<img class="responsive-img margin-top" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico4_img2.png" />
 										</div>
 					      			</div>
+					      			<div class="col s12">
+				      					<div class="container">
+				      						<?php echo do_shortcode('[contact-form-7 id="660" title="Communication and Marketing"]'); ?>
+				      					</div>
+				      				</div>
 					      		</div>
 				      		</div>
 				      	</div>
@@ -248,6 +268,11 @@
 					      			<div class="col s12 center">
 										<img class="responsive-img margin-top" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico5_img1.png" />
 					      			</div>
+					      			<div class="col s12">
+				      					<div class="container">
+				      						<?php echo do_shortcode('[contact-form-7 id="661" title="Brand Positioning"]'); ?>
+				      					</div>
+				      				</div>
 					      		</div>
 				      		</div>
 				      	</div>
@@ -291,6 +316,11 @@
 					      			<div class="col s12 center margin-top">
 					      				<img width="40%" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico6_img1.png" />
 					      			</div>
+					      			<div class="col s12">
+				      					<div class="container">
+				      						<?php echo do_shortcode('[contact-form-7 id="662" title="Product Launch"]'); ?>
+				      					</div>
+				      				</div>
 					      		</div>
 				      		</div>
 				      	</div>
@@ -325,8 +355,8 @@
 				    	</div>
 				      	<div class="collapsible-body">
 				      		<div class="row">
-				      			<div class="container">
-					      			<div class="col s12">
+				      			<div class="col s12">
+				      				<div class="container">
 					      				<p>Também realizamos:</p>
 										<ul>
 											<li>Pesquisa de cliente oculto
@@ -340,6 +370,11 @@
 											<li>Nacional de Saude Suplementar (ANS).</li>
 										</ul>
 					      			</div>
+					      			<div class="col s12">
+				      					<div class="container">
+				      						<?php echo do_shortcode('[contact-form-7 id="663" title="Consumer Experience"]'); ?>
+				      					</div>
+				      				</div>
 					      		</li>
 				      		</div>
 				      	</div>

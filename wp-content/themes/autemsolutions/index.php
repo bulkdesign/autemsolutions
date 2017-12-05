@@ -14,10 +14,10 @@ get_header(); ?>
     <div class="section" style="padding-top:0;padding-bottom:0;">
       <div class="row" style="margin-bottom:0;">
         <div class="col s12">
-          <div class="col m6 s12">
+          <div class="col l6 hide-on-med-and-down">
             <div class="astronauta"></div>
           </div>
-          <div class="col m6 s12 margin-bottom">
+          <div class="col l6 s12 margin-bottom">
             <h1 class="black-text right-align padding-top">NÓS ACREDITAMOS NOS SEUS SONHOS</h1>
             <p class="black-text justify">Nossa missão é ajudar pessoas e empreendimentos a tornarem seus objetivos sustentáveis e, com isso, impactar diretamente na economia e na vida das pessoas, fazendo com que cada vez mais empresas e profissionais tenham oportunidade de crescer.</p>
             <h1 class="black-text right-align padding-top">E NO PODER DA CONEXÃO</h1>
@@ -76,21 +76,21 @@ get_header(); ?>
         </div>
         <div class="col l10 push-l1 s12 padding-bottom30">
           <div class="animatedParent" data-sequence="300">
-            <div class="col s25 animated growIn" data-id="1">
+            <div class="center col l25 s12 animated growIn" data-id="1">
               <img src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/icone1.png" />
               <p class="center">Pesquisa</p>
             </div>
-            <div class="col s25 animated fadeInUpShort bounceOutDown" data-id="2">
+            <div class="col l25 hide-on-med-and-down animated fadeInUpShort bounceOutDown" data-id="2">
               <img class="padding-top30" src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/seta.png" />
             </div>
-            <div class="col s25 animated growIn" data-id="3">
+            <div class="center col l25 s12 animated growIn" data-id="3">
               <img src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/icone2.png" />
               <p class="center">Estratégia</p>
             </div>
-            <div class="col s25 animated fadeInUpShort" data-id="4">
+            <div class="col l25 hide-on-med-and-down animated fadeInUpShort" data-id="4">
               <img class="padding-top30" src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/seta.png" />
             </div>
-            <div class="col s25 animated growIn" data-id="5">
+            <div class="center col l25 s12 animated growIn" data-id="5">
               <img src="<?php bloginfo('template_url'); ?>/img/comotrabalhamos/icone3.png" />
               <p class="center">Plano de Comunicação</p>
             </div>
@@ -101,9 +101,13 @@ get_header(); ?>
   </div>
 </div>
 
-<div class="fullwidth">
+<div class="fullwidth hide-on-med-and-down">
   <h1 class="white-text header">Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1>
   <div style="width: 100%; height: 450px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(<?php bloginfo('template_url'); ?>/img/imagem-final.jpg); background-size: 100% 100%"></div>
+</div>
+<div class="fullwidth hide-large-only">
+  <h1 class="white-text header">Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1>
+  <div style="width: 100%; height: 250px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(<?php bloginfo('template_url'); ?>/img/imagem-final.jpg); background-size: 100% 100%"></div>
 </div>
 
 

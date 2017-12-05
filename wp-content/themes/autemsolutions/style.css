@@ -42,6 +42,14 @@ h1 {
 	background-color: #12b0bf !important;
 }
 
+.text-autem-darker {
+	color: rgba(32, 86, 94, 1) !important;
+}
+
+.autem-darker, .autem-darker input, .autem-darker textarea {
+	background-color: rgba(32, 86, 94, 0.8) !important;
+}
+
 .fullwidth {
     width: 100%;
     height: 45%;
@@ -53,6 +61,10 @@ h1 {
 
 .fullwidth img {
 	width: 100%;
+}
+
+div#home-sticky-wrapper {
+    height: auto !important;
 }
 
 .astronauta {
@@ -92,7 +104,7 @@ h1.header {
 	height: 400px;
 }
 
-.oquefazemos {
+.contato, .oquefazemos {
 	margin: 50px 0 50px 0;
 }
 
@@ -246,7 +258,53 @@ div#home {
 	}
 }
 
+@media (min-width: 603px) and (max-width: 992px) {
+	nav .brand-logo img {
+	    padding-top: 17px !important;
+	}	
+}
+
 @media (max-width:992px) {
+	.contato h1 {
+	    font-size: 30px !important;
+	    margin: 0px;
+	}
+
+	.oquefazemos h1 {
+	    font-size: 30px !important;
+	    margin: 0 0 100px;
+	}
+
+	.clientes h1 {
+    	font-size: 2.1rem;
+	}
+
+	.col.l12.mvv.white-text {
+		padding: 20px !important
+	}
+
+	.col.l12.clientes.white-text {
+		padding: 0 !important;
+	}
+
+	.poweredby {
+		margin-top: 55% !important;
+	}
+
+	.soliciteavisita {
+		margin-top: 10% !important;
+    	margin-bottom: 50px !important;
+	}
+
+	.soliciteavisita input {
+		padding: 0 !important;
+	}
+
+	nav .brand-logo img {
+	    padding: 0;
+	    max-width: 100%;
+	}
+
 	.bloco-azul-left, .bloco-azul-right, .bloco-azul-right-custom {
 		padding-left: 0;
 		padding-right: 0; 
@@ -279,6 +337,15 @@ div#home {
 }
 
 @media (max-width:602px) {
+	.poweredby {
+		margin-top: 170% !important;
+	}
+
+	.soliciteavisita {
+		margin-top: 20% !important;
+    	margin-bottom: 50px !important;
+	}
+
 	nav .brand-logo {
     	padding: 14px 0;
 	}
@@ -483,6 +550,27 @@ h5.ytc_title.ytc_title_above {
 }
 
 @media (max-width: 600px) {
+	h1.header {
+	    position: absolute;
+	    text-transform: uppercase;
+	    font-size: 28px;
+	    padding: 10px !important;
+	    margin: 0;
+	}
+
+	h1.black-text.right-align.padding-top {
+    	font-size: 2.2em;
+    	text-align: left;
+	}
+
+	h3 {
+		font-size: 23px;
+	}
+
+	.carousel-item {
+		background-size: cover !important;
+	}
+	
 	.col.s4.ytc_video_container {
 		width: 100% !important;
 	}
@@ -527,4 +615,100 @@ footer input[type=text], footer input[type=email], footer input[type=tel], texta
 
 div.wpcf7-mail-sent-ok {
 	color: #ffffff;
+}
+
+textarea {
+	width: 100% !important;
+	height: 100px !important;
+	padding: 10px !important;
+	border: 2px solid #fff !important;
+}
+
+input[type=submit] {
+	border: none !important;
+	background: #000000 !important;
+	width: 100px !important;
+}
+
+input {
+	width: 97.8% !important;
+	border: 2px solid #fff !important;
+    padding: 0 10px !important;
+}
+
+input:focus:not([readonly]), textarea:focus:not([readonly]) {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+aside {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #12b0bf;
+    transition: all .5s ease;
+    z-index: 99999;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+nav.mobile-menu {
+    text-align: center;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: none;
+    background: none;
+}
+
+.mobile-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mobile-menu li {
+    padding: 85px 35px 0;
+    margin-top: 0px;
+    align-items: center;
+    flex: 1;
+    float: none;
+}
+
+.mobile-menu a {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    transition: all 0.5s ease;
+    display: block;
+    text-decoration: none;
+    margin: 2px;
+    position: relative;
+    z-index: 999999;
+    cursor: pointer !important;
+}
+
+.margin-clear {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.outer-close {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 85px;
+    height: 85px;
+    cursor: pointer;
+    z-index: 999999;
+}
+
+i.small.material-icons {
+    padding-top: 10px;
 }

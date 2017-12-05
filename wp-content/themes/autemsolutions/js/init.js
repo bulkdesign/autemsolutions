@@ -13,6 +13,9 @@ $(document).ready(function(){
 	$(".button-collapse").sideNav();
 	$(".dropdown-button").dropdown();
     $('select').material_select();
+    $('.toggle-overlay').click(function() {
+        $('aside').toggleClass('open');
+    })
     $('.astronauta').parallax({ speed: 0.6, axis: 'y' });
     $("#home").sticky({topSpacing:0});
 

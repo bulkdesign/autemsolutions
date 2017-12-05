@@ -27,7 +27,7 @@
 <div class="row">
 	<div class="col s12">
 		<div class="container">
-			<div class="col l12 clientes white-text">
+			<div class="col l12 s12 clientes white-text">
 				<h1 class="white-text">DEPOIMENTOS</h1>
 				<div class="col l12 s12">
 					<div class="col l4 s12">
@@ -55,12 +55,24 @@
 		</div>
 	</div>
 </div>
-<div class="row" style="margin-top: 150px;margin-bottom:50px">
+<div class="row poweredby" style="margin-top: 100px;">
 	<div class="col s12">
 		<div class="container">
 			<div class="col s12 center">
 				<h5 class="white-text">Powered by</h5>
 				<img style="width:200px;margin: 0;" src="<?php bloginfo('template_url'); ?>/img/parceiros/5-questionpro.png" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row soliciteavisita" style="margin-top: 50px;margin-bottom:50px">
+	<div class="col s12">
+		<div class="container">
+			<div class="col s12">
+				<h5 class="white-text">SOLICITE UMA VISITA</h5>
+			</div>
+			<div class="col s12 center">
+				<?php echo do_shortcode('[contact-form-7 id="18" title="Contato"]'); ?>
 			</div>
 		</div>
 	</div>
