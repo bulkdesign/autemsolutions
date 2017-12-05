@@ -16,7 +16,7 @@
     } elseif ( is_search() ) {
       echo 'Buscar por &quot;'.wp_specialchars($s).'&quot; | '; bloginfo( 'name' );
     } elseif ( is_home() || is_front_page() ) {
-      bloginfo( 'name' ); echo ' | '; bloginfo( 'description' );
+      bloginfo( 'name' ); 
     }  elseif ( is_404() ) {
       echo 'Erro 404 - Não Encontrado | '; bloginfo( 'name' );
     } elseif ( is_single() ) {

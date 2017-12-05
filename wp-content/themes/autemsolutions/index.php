@@ -105,7 +105,7 @@ get_header(); ?>
   <h1 class="white-text header">Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1>
   <div style="width: 100%; height: 450px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(<?php bloginfo('template_url'); ?>/img/imagem-final.jpg); background-size: 100% 100%"></div>
 </div>
-<div class="fullwidth hide-large-only">
+<div class="fullwidth hide-on-large-only">
   <h1 class="white-text header">Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1>
   <div style="width: 100%; height: 250px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(<?php bloginfo('template_url'); ?>/img/imagem-final.jpg); background-size: 100% 100%"></div>
 </div>
