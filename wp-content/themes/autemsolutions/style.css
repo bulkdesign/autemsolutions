@@ -111,6 +111,10 @@ blockquote {
 	border-color: #12b0bf;
 }
 
+h1.black-text.right-align.padding-top {
+    font-size: 4em;
+}
+
 .autem-text {
 	color: #12b0bf !important;
 }
@@ -137,6 +141,10 @@ blockquote {
 
 .margin-bottom {
 	margin-bottom: 40px;
+}
+
+.padding20 {
+	padding: 0px 30px 0px 30px;
 }
 
 .padding-top {
@@ -208,12 +216,21 @@ div#home {
 	margin-top: 16px !important;
 }
 
-.col.m6.mvv {
+.col.l12.mvv.white-text {
     padding: 50px !important;
+}
+
+.col.l12.clientes.white-text {
+	padding: 50px !important;
 }
 
 .mvv h1 {
 	font-size: 30px;
+}
+
+.clientes h1 {
+	font-size: 45px;
+	text-align: center;
 }
 
 .clientes {
@@ -370,7 +387,8 @@ div#home {
 }
 
 .clientes img {
-	margin: 80px auto 0px;
+	display: block;
+	margin: 20px auto 0px;
 }
 
 .quemsomos img, img.diferenciais {
@@ -379,7 +397,7 @@ div#home {
 }
 
 .clientes img {
-	max-width: 200px;
+	max-width: 250px;
 }
 
 .icone-quemsomos img {

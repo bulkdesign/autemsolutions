@@ -5,7 +5,7 @@
 <style type="text/css">
 	
 	.oquefazemos h1 {
-		font-size: 40px;
+		font-size: 38px;
 	}
 
 </style>
