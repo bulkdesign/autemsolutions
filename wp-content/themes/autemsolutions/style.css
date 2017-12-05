@@ -336,9 +336,15 @@ div#home {
 	}
 }
 
-@media (max-width:602px) {
+@media (max-width:325px) {
 	.poweredby {
-		margin-top: 170% !important;
+		margin-top: 800px !important;
+	}
+}
+
+@media (min-width:326px) and (max-width:602px) {
+	.poweredby {
+		margin-top: 700px !important;
 	}
 
 	.soliciteavisita {
@@ -669,13 +675,12 @@ nav.mobile-menu {
 }
 
 .mobile-menu ul {
-    margin: 0;
+    margin: 50% 0;
     padding: 0;
     list-style: none;
 }
 
 .mobile-menu li {
-    padding: 85px 35px 0;
     margin-top: 0px;
     align-items: center;
     flex: 1;

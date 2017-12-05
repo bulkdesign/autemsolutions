@@ -55,7 +55,7 @@
 		</div>
 	</div>
 </div>
-<div class="row poweredby" style="margin-top: 100px;">
+<div class="row poweredby" style="margin-top: 150px;">
 	<div class="col s12">
 		<div class="container">
 			<div class="col s12 center">
