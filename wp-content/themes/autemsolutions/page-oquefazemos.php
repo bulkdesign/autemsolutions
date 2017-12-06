@@ -14,10 +14,10 @@
 	<div class="row">
 		<div class="oquefazemos">
 			<div class="col s12">
-				<ul class="collapsible" data-collapsible="accordion">
+				<ul class="collapsible" data-collapsible="expandable">
 				    <li>
 				    	<!-- SERVICO 1 -->
-				    	<div class="collapsible-header rocketmarketing">
+				    	<div class="collapsible-header rocketmarketing hoverable">
 				    		<div class="row">
 					    		<div class="container">
 					    			<div class="col s12">
@@ -92,7 +92,7 @@
 				    </li>
 				    <li>
 						<!-- SERVICO 2 -->
-				    	<div class="collapsible-header trendssolution">
+				    	<div class="collapsible-header trendssolution hoverable">
 				    		<div class="row">
 				    			<div class="container">
 					    			<div class="col s12">
@@ -133,13 +133,12 @@
 				    </li>
 				    <li>
 						<!-- SERVICO 3 -->
-				    	<div class="collapsible-header">
+				    	<div class="collapsible-header targetcustomer hoverable">
 				    		<div class="row">
 				    			<div class="container">
 				    				<div class="col s12">
-						    			<div class="col l2 s12">
-					    					<img class="responsive-img padding-top30 icone-escuro" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico3/icone.png" />
-					    					<img style="display: none;" class="responsive-img padding-top30 icone-branco" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico3/icone-white.png" />
+					    				<div class="col l2 s12">
+					    					<div class="icones servico3"></div>
 					    				</div>
 							    		<div class="col l8 s12">
 							      			<h1>TARGET CUSTOMER</h1>
@@ -176,13 +175,12 @@
 				    </li>
 				    <li>
 						<!-- SERVICO 4 -->
-				    	<div class="collapsible-header">
+				    	<div class="collapsible-header communicationandmarketing hoverable">
 				    		<div class="row">
 				    			<div class="container">
 				    				<div class="col s12">
-						    			<div class="col l2 s12">
-					    					<img class="responsive-img padding-top30 icone-escuro" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico4/icone.png" />
-					    					<img style="display: none;" class="responsive-img padding-top30 icone-branco" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico4/icone-white.png" />
+					    				<div class="col l2 s12">
+					    					<div class="icones servico4"></div>
 					    				</div>
 							    		<div class="col l8 s12">
 							      			<h1>COMMUNICATION AND MARKETING</h1>
@@ -216,13 +214,12 @@
 				    </li>
 				    <li>
 						<!-- SERVICO 5 -->
-				    	<div class="collapsible-header">
+				    	<div class="collapsible-header brandpositioning hoverable">
 				    		<div class="row">
 				    			<div class="container">
 				    				<div class="col s12">
-						    			<div class="col l2 s12">
-					    					<img class="responsive-img padding-top30 icone-escuro" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico5/icone.png" />
-					    					<img style="display: none;" class="responsive-img padding-top30 icone-branco" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico5/icone-white.png" />
+					    				<div class="col l2 s12">
+					    					<div class="icones servico5"></div>
 					    				</div>
 							    		<div class="col l8 s12">
 							      			<h1>BRAND POSITIONING</h1>
@@ -256,13 +253,12 @@
 				    </li>
 				    <li>
 						<!-- SERVICO 6 -->
-				    	<div class="collapsible-header">
+				    	<div class="collapsible-header productlaunch hoverable">
 				    		<div class="row">
 				    			<div class="container">
 				    				<div class="col s12">
-						    			<div class="col l2 s12">
-					    					<img class="responsive-img padding-top30 icone-escuro" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico6/icone.png" />
-					    					<img style="display: none;" class="responsive-img padding-top30 icone-branco" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico6/icone-white.png" />
+					    				<div class="col l2 s12">
+					    					<div class="icones servico6"></div>
 					    				</div>
 							    		<div class="col l8 s12">
 							      			<h1>PRODUCT LAUNCH</h1>
@@ -302,13 +298,12 @@
 				    </li>
 				    <li>
 						<!-- SERVICO 7 -->
-				    	<div class="collapsible-header">
+				    	<div class="collapsible-header consumerexperience hoverable">
 				    		<div class="row">
 				    			<div class="container">
 				    				<div class="col s12">
-						    			<div class="col l2 s12">
-					    					<img class="responsive-img padding-top30 icone-escuro" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico7/icone.png" />
-					    					<img style="display: none;" class="responsive-img padding-top30 icone-branco" src="<?php bloginfo('template_url'); ?>/img/oquefazemos/servico7/icone-white.png" />
+					    				<div class="col l2 s12">
+					    					<div class="icones servico7"></div>
 					    				</div>
 							    		<div class="col l8 s12">
 							      			<h1>CONSUMER EXPERIENCE</h1>

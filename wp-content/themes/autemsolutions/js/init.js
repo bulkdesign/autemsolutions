@@ -31,24 +31,33 @@ $(document).ready(function(){
         }
     );
 
-    $('.collapsible').collapsible({
-        onOpen: function(el) {
-            $('.rocketmarketing').addClass('servico1-branco');
-            $('.trendssolution').addClass('servico2-branco');
-            $('.servico3').addClass('servico3-branco');
-            $('.servico4').addClass('servico4-branco');
-            $('.servico5').addClass('servico5-branco');
-        }
-
-        onClose: function(el) {
-            $('.rocketmarketing').addClass('servico1');
-            $('.trendssolution').addClass('servico2');
-            $('.servico3').addClass('servico3');
-            $('.servico4').addClass('servico4');
-            $('.servico5').addClass('servico5');
-        }
+    $('.rocketmarketing').click(function () {
+        $('.servico1').toggleClass('servico1-branco');
     });
 
+    $('.trendssolution').click(function () {
+        $('.servico2').toggleClass('servico1-branco');
+    });
+
+    $('.targetcustomer').click(function () {
+        $('.servico3').toggleClass('servico3-branco');
+    });    
+
+    $('.communicationandmarketing').click(function () {
+        $('.servico4').toggleClass('servico4-branco');
+    });    
+
+    $('.brandpositioning').click(function () {
+        $('.servico5').toggleClass('servico5-branco');
+    });
+
+    $('.productlaunch').click(function () {
+        $('.servico6').toggleClass('servico6-branco');
+    });
+
+    $('.consumerexperience').click(function () {
+        $('.servico7').toggleClass('servico7-branco');
+    });
 
     $('#oquefazemos').click(function () {
             $(this).hide();
