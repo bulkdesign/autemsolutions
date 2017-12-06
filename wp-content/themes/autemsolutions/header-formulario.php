@@ -40,7 +40,7 @@
 <!-- HEADER -->
 <div class="fullwidth">
   <h1 class="white-text header">Marketing to boost your dreams</h1>
-  <img src="<?php bloginfo('template_url'); ?>/img/header.png" />
+  <img src="<?php bloginfo('template_url'); ?>/img/header.jpg" />
 </div>
 <!-- NAVBAR -->
 <div class="scrollspy hide-on-med-and-down" id="home">

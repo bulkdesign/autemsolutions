@@ -2,6 +2,16 @@
 
 <?php get_header('posts'); ?>
 
+<style type="text/css">
+	
+	body {
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(https://images.unsplash.com/photo-1493970866116-fe0cad1a5727?auto=format&fit=crop&w=2000&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+	    background-size: cover;
+	    background-attachment: fixed;
+	}
+
+</style>
+
 <div class="row" style="margin-bottom: 0">
 	<div class="col s12">
 		<div class="container">

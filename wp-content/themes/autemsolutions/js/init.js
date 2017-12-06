@@ -36,7 +36,7 @@ $(document).ready(function(){
     });
 
     $('.trendssolution').click(function () {
-        $('.servico2').toggleClass('servico1-branco');
+        $('.servico2').toggleClass('servico2-branco');
     });
 
     $('.targetcustomer').click(function () {

@@ -2,6 +2,17 @@
 
 <?php get_header('posts'); ?>
 
+<style type="text/css">
+	
+	body {
+		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%, rgba(0, 0, 0, 0.45) 100%), url('https://images.unsplash.com/photo-1503647098920-d5a4604f42c3?auto=format&fit=crop&w=2000&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D');
+		background-size: cover;
+		background-position: center;
+	    background-attachment: fixed;
+	}
+
+</style>
+
 <div class="container">
 	<div class="row">
 		<div class="contato">

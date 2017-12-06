@@ -822,3 +822,7 @@ input[type=file] {
 	background-position: 0px 50px;
     background-repeat: no-repeat;
 }
+
+input.wpcf7-form-control.wpcf7-file.wpcf7-validates-as-required {
+    background: transparent !important;
+}
