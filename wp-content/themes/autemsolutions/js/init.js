@@ -19,6 +19,43 @@ $(document).ready(function(){
     $('.astronauta').parallax({ speed: 0.6, axis: 'y' });
     $("#home").sticky({topSpacing:0});
 
+    $('.collapsible-header').click(function () {
+            $(".collapsible-header").toggleClass('border-bottom-remove');
+            $("#rocketmarketing").toggle();
+            $("#trendssolution").toggle();
+            $("#targetcustomer").toggle();
+            $("#communicationandmarketing").toggle();
+            $("#brandpositioning").toggle();
+            $("#productlaunch").toggle();
+            $("#consumerexperience").toggle();
+        }
+    );
+
+    $('.collapsible').collapsible({
+        onOpen: function(el) {
+            $('.rocketmarketing').addClass('servico1-branco');
+            $('.trendssolution').addClass('servico2-branco');
+            $('.servico3').addClass('servico3-branco');
+            $('.servico4').addClass('servico4-branco');
+            $('.servico5').addClass('servico5-branco');
+        }
+
+        onClose: function(el) {
+            $('.rocketmarketing').addClass('servico1');
+            $('.trendssolution').addClass('servico2');
+            $('.servico3').addClass('servico3');
+            $('.servico4').addClass('servico4');
+            $('.servico5').addClass('servico5');
+        }
+    });
+
+
+    $('#oquefazemos').click(function () {
+            $(this).hide();
+        }
+    );
+
+
 	function limpa_formulário_cep() {
         // Limpa valores do formulário de cep.
         $("#rua").val("");

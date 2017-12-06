@@ -68,7 +68,7 @@ div#home-sticky-wrapper {
 }
 
 .astronauta {
-	background-image: url(./img/astronauta.png);
+	background-image: url(http://www.pngmart.com/files/5/Astronaut-PNG-Photos.png);
     background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
@@ -164,7 +164,7 @@ h1.black-text.right-align.padding-top {
 }
 
 .padding-top30 {
-	padding-top: 30px;
+	padding: 30px 0 0 !important;
 }
 
 .slider .slides {
@@ -271,7 +271,7 @@ div#home {
 	}
 
 	.oquefazemos h1 {
-	    font-size: 30px !important;
+	    font-size: 28px !important;
 	    margin: 0 0 100px;
 	}
 
@@ -338,7 +338,7 @@ div#home {
 
 @media (max-width:325px) {
 	.poweredby {
-		margin-top: 800px !important;
+		margin-top: 900px !important;
 	}
 }
 
@@ -502,7 +502,7 @@ div#home {
 }
 
 .card-image img {
-	max-height: 200px;
+	max-height: 60%;
 }
 
 .card-action h3 {
@@ -632,7 +632,6 @@ textarea {
 
 input[type=submit] {
 	border: none !important;
-	background: #000000 !important;
 	width: 100px !important;
 }
 
@@ -716,4 +715,110 @@ nav.mobile-menu {
 
 i.small.material-icons {
     padding-top: 10px;
+}
+
+.col.m10.push-m2.conteudo-direita {
+    left: 15% !important;
+}
+
+.row .col.s12 {
+	left: auto !important;
+}
+
+.border-bottom-remove {
+	border-bottom: 0;
+}
+
+input[type=file] {
+	border: none !important;
+}
+
+.icones {
+	width: 100%;
+    height: 170px;
+    display: block;
+}
+
+.servico1 {
+	background: url(./img/oquefazemos/servico1/icone.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico2 {
+	background: url(./img/oquefazemos/servico2/icone.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico3 {
+	background: url(./img/oquefazemos/servico3/icone.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico4 {
+	background: url(./img/oquefazemos/servico4/icone.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico5 {
+	background: url(./img/oquefazemos/servico5/icone.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico6 {
+	background: url(./img/oquefazemos/servico6/icone.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico7 {
+	background: url(./img/oquefazemos/servico7/icone.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico1-branco {
+	background: url(./img/oquefazemos/servico1/icone-white.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico2-branco {
+	background: url(./img/oquefazemos/servico2/icone-white.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico3-branco {
+	background: url(./img/oquefazemos/servico3/icone-white.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico4-branco {
+	background: url(./img/oquefazemos/servico4/icone-white.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico5-branco {
+	background: url(./img/oquefazemos/servico5/icone-white.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico6-branco {
+	background: url(./img/oquefazemos/servico6/icone-white.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.servico7-branco {
+	background: url(./img/oquefazemos/servico7/icone-white.png);
+	background-position: 0px 50px;
+    background-repeat: no-repeat;
 }

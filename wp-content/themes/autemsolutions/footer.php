@@ -18,9 +18,9 @@
             <br>
             Fone: (41) 4101-7740
             <br>
-            Rua Trajano Reis, 472 - São Francisco, Curitiba - PR
+            Rua Dr. Roberto Barrozo, 307 - Centro Cívico, Curitiba - PR
             <br>
-            CEP 80510-220
+            CEP 80520-070
           </p>
         </div>
         <div class="col m6">

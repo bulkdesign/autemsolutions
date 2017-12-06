@@ -36,15 +36,7 @@
   <?php wp_head(); ?>
 </head>
 
-<style type="text/css">
-  
-.card {
-  background-color: transparent;
-}
-
-</style>
-
-<body class="tips">
+<body>
 <!-- HEADER -->
 <div class="fullwidth">
   <h1 class="white-text header">Marketing to boost your dreams</h1>
