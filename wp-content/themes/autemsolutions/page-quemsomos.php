@@ -44,6 +44,7 @@
 						<img src="<?php bloginfo('template_url'); ?>/img/logos/1-imunova.jpg" />
 						<p class="padding20 justify">O trabalho com a Autem para desenvolver e estruturar o departamento comercial foi essencial para a Imunova. Ao perceber a melhor forma de entender as demandas dos clientes e sistematizar todo o processo de venda conseguimos triplicar o nosso resultado no primeiro ano e transmitir a credibilidade que a empresa já obteve no mercado empresa para os novos clientes.
 						<br><br>
+						Max Ingberman<br>
 						Diretor de P&D<br>
 						Imunova Análises Biológicas 
 						</p>

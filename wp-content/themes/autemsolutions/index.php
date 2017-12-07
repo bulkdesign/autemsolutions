@@ -40,7 +40,7 @@ get_header(); ?>
         <div class="container">
           <h1 class="text-white padding-top" style="font-size:20px">Últimos Artigos do Blog</h1>
           <h3 style="margin-top:80px;"><?php the_title();?></h3>
-          <a href="<?php the_permalink();?>" class="btn waves-effect autem white-text">Ler artigo</a>
+          <a href="<?php the_permalink();?>" class="btn waves-effect autem white-text" style="z-index: 999999">Ler artigo</a>
         </div>
       </div>
           <?php endwhile; ?>
@@ -102,11 +102,11 @@ get_header(); ?>
 </div>
 
 <div class="fullwidth hide-on-med-and-down">
-  <h1 class="white-text header">Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1>
+  <a href="/?page_id=650" class="white-text header"><h1>Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1></a>
   <div style="width: 100%; height: 450px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(<?php bloginfo('template_url'); ?>/img/imagem-final.jpg); background-size: 100% 100%"></div>
 </div>
 <div class="fullwidth hide-on-large-only">
-  <h1 class="white-text header">Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1>
+  <a href="/?page_id=650" class="white-text header"><h1>Conheça Nossas Soluções<br>Para Decolar a Sua Empresa</h1></a>
   <div style="width: 100%; height: 250px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url(<?php bloginfo('template_url'); ?>/img/imagem-final.jpg); background-size: 100% 100%"></div>
 </div>
 

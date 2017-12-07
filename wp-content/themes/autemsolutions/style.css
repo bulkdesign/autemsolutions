@@ -80,10 +80,14 @@ div#home-sticky-wrapper {
     z-index: 10;
 }
 
-h1.header {
+h1.header, a.header {
 	position: absolute;
     text-transform: uppercase;
     font-size: 3em;
+}
+
+.header h1 {
+	font-size: inherit !important;
 }
 
 .col.s12.comotrabalhamos {
@@ -264,6 +268,12 @@ div#home {
 	}	
 }
 
+@media (min-width:993px) {
+	.col.m10.push-m2.conteudo-direita {
+    	left: 15% !important;
+	}
+}
+
 @media (max-width:992px) {
 	.contato h1 {
 	    font-size: 30px !important;
@@ -271,7 +281,7 @@ div#home {
 	}
 
 	.oquefazemos h1 {
-	    font-size: 28px !important;
+	    font-size: 26px !important;
 	    margin: 0 0 100px;
 	}
 
@@ -285,6 +295,10 @@ div#home {
 
 	.col.l12.clientes.white-text {
 		padding: 0 !important;
+	}
+
+	.col.m10.push-m2.conteudo-direita {
+    	left: 0%;
 	}
 
 	.poweredby {
@@ -337,12 +351,29 @@ div#home {
 }
 
 @media (max-width:325px) {
+
+	.header h1 {
+		font-size: 25px !important;
+	}
+
 	.poweredby {
 		margin-top: 900px !important;
+	}
+
+	input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+		width: 87.8% !important;
 	}
 }
 
 @media (min-width:326px) and (max-width:602px) {
+	input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+		width: 87.8% !important;
+	}
+
+	.header h1 {
+		font-size: 25px !important;
+	}
+
 	.poweredby {
 		margin-top: 700px !important;
 	}
@@ -715,10 +746,6 @@ nav.mobile-menu {
 
 i.small.material-icons {
     padding-top: 10px;
-}
-
-.col.m10.push-m2.conteudo-direita {
-    left: 15% !important;
 }
 
 .row .col.s12 {

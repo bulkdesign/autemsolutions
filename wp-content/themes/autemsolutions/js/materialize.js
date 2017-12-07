@@ -9410,15 +9410,15 @@ if (Vel) {
 
         function setupEvents() {
           if (typeof window.ontouchstart !== 'undefined') {
-            view.on('touchstart.carousel', tap);
-            view.on('touchmove.carousel', drag);
-            view.on('touchend.carousel', release);
+            view[0].addEventListener('touchstart', tap);
+            view[0].addEventListener('touchmove', drag);
+            view[0].addEventListener('touchend', release);
           }
-          view.on('mousedown.carousel', tap);
-          view.on('mousemove.carousel', drag);
-          view.on('mouseup.carousel', release);
-          view.on('mouseleave.carousel', release);
-          view.on('click.carousel', click);
+          view[0].addEventListener('mousedown', tap);
+          view[0].addEventListener('mousemove', drag);
+          view[0].addEventListener('mouseup', release);
+          view[0].addEventListener('mouseleave', release);
+          view[0].addEventListener('click', click);
         }
 
         function xpos(e) {
@@ -9603,7 +9603,6 @@ if (Vel) {
         function click(e) {
           // Disable clicks if carousel was dragged.
           if (dragged) {
-            e.preventDefault();
             e.stopPropagation();
             return false;
           } else if (!options.fullWidth) {
@@ -9612,7 +9611,6 @@ if (Vel) {
 
             // Disable clicks if carousel was shifted by click
             if (diff !== 0) {
-              e.preventDefault();
               e.stopPropagation();
             }
             cycleTo(clickedIndex);
@@ -9645,9 +9643,6 @@ if (Vel) {
 
         function tap(e) {
           // Fixes firefox draggable image bug
-          if (e.type === 'mousedown' && $(e.target).is('img')) {
-            e.preventDefault();
-          }
           pressed = true;
           dragged = false;
           vertical_dragged = false;
@@ -9677,20 +9672,11 @@ if (Vel) {
               }
             } else if (dragged) {
               // If dragging don't allow vertical scroll.
-              e.preventDefault();
-              e.stopPropagation();
               return false;
             } else {
               // Vertical scrolling.
               vertical_dragged = true;
             }
-          }
-
-          if (dragged) {
-            // If dragging don't allow vertical scroll.
-            e.preventDefault();
-            e.stopPropagation();
-            return false;
           }
         }
 
@@ -9721,10 +9707,6 @@ if (Vel) {
           timestamp = Date.now();
           requestAnimationFrame(autoScroll);
 
-          if (dragged) {
-            e.preventDefault();
-            e.stopPropagation();
-          }
           return false;
         }
 

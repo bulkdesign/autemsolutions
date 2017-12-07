@@ -325,27 +325,29 @@
 				    	</div>
 				      	<div class="collapsible-body autem-darker" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%, rgba(0, 0, 0, 0.65) 100%), url('https://images.unsplash.com/photo-1507886331062-46436eea0317?auto=format&fit=crop&w=2000&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'); background-size: cover; background-position: center;">
 				      		<div class="row">
-				      			<div class="col m10 push-m2 conteudo-direita s12">
-				      				<div class="container">
-				      					<p>Nossa solução em experiência de consumo vai desde a pesquisa de qualidade no atendimento e vendas até a satisfação de compra. Com base neste estudo, entregamos uma consultoria em estratégias de monitoramento e de aperfeiçoamento da experiencia de seus consumidores.</p>
-					      				<p style="margin-bottom: 0">Também realizamos:</p><br>
-										<ul>
-											<li>Pesquisa de cliente oculto
-											<li>Implantação de indicadores-chave
-											<li>Plano de pesquisa periódica
-										    <li>Pesquisas direcionadas:</li>
-										</ul>
-										<ul style="margin-left: 30px">
-											<li>Pesquisa de satisfação para atendimento ao item 8.1 da ISO 9001:2008</li>
-											<li>Pesquisa de satisfação conforme RN no 386,RN no 423, de 2017, IN no 60, de 2015, IN no 68 da Agência</li>
-											<li>Nacional de Saude Suplementar (ANS).</li>
-										</ul>
+				      			<div class="container">
+				      				<div class="col m10 push-m2 conteudo-direita s12">
+				      					<div class="col s12 margin-top">
+				      						<p>Nossa solução em experiência de consumo vai desde a pesquisa de qualidade no atendimento e vendas até a satisfação de compra. Com base neste estudo, entregamos uma consultoria em estratégias de monitoramento e de aperfeiçoamento da experiencia de seus consumidores.</p>
+					      					<p style="margin-bottom: 0">Também realizamos:</p><br>
+											<ul>
+												<li>Pesquisa de cliente oculto
+												<li>Implantação de indicadores-chave
+												<li>Plano de pesquisa periódica
+											    <li>Pesquisas direcionadas:</li>
+											</ul>
+											<ul style="margin-left: 30px">
+												<li>Pesquisa de satisfação para atendimento ao item 8.1 da ISO 9001:2008</li>
+												<li>Pesquisa de satisfação conforme RN no 386,RN no 423, de 2017, IN no 60, de 2015, IN no 68 da Agência</li>
+												<li>Nacional de Saude Suplementar (ANS).</li>
+											</ul>
+					      				</div>
+					      				<br>
+						      			<div class="col s12">
+					      					<?php echo do_shortcode('[contact-form-7 id="663" title="Consumer Experience"]'); ?>
+					      				</div>
 					      			</div>
-					      			<br>
-					      			<div class="col s12">
-				      					<?php echo do_shortcode('[contact-form-7 id="663" title="Consumer Experience"]'); ?>
-				      				</div>
-					      		</li>
+					      		</div>
 				      		</div>
 				      	</div>
 				    </li>

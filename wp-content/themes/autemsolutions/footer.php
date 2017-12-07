@@ -90,7 +90,7 @@ var google_remarketing_only = true;
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
-  <script src="<?php bloginfo('template_url') ?>/js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="<?php bloginfo('template_url') ?>/js/jquery.mask.min.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/materialize.js"></script>
   <script src="<?php bloginfo('template_url') ?>/js/init.js"></script>
